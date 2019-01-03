@@ -98,12 +98,11 @@ int main() {
 	start = clock();
 	int* p_index_array = twoSumByTwoHash(nums, 3, 6);
 	stop = clock();
-	printf("time : %d\n", stop - start);
+	printf("time : %lld\n", stop - start);
 	if (p_index_array) {
 		for (int i = 0; i < 2; i++) {
 			printf("index : %d value : %d ", p_index_array[i], nums[p_index_array[i]]);
 		}
+		free(p_index_array);
 	}
-	printf("\n");
-	free(p_index_array);
 }

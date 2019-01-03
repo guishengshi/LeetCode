@@ -1,6 +1,4 @@
-﻿  TwoSum.c
-f:\git\leetcode\leetcode\leetcode\twosum.c(101): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“time_t”
-  f:\git\leetcode\leetcode\leetcode\twosum.c(101): note: 请考虑在格式字符串中使用“%lld”
-  f:\git\leetcode\leetcode\leetcode\twosum.c(101): note: 请考虑在格式字符串中使用“%I64d”
-  LeetCode.vcxproj -> F:\Git\LeetCode\LeetCode\Debug\LeetCode.exe
-  LeetCode.vcxproj -> F:\Git\LeetCode\LeetCode\Debug\LeetCode.pdb (Full PDB)
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LeetCode.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  TwoSum.c
+  LeetCode.vcxproj -> F:\Git\LeetCode\LeetCode\Debug\TwoSum.exe
+  LeetCode.vcxproj -> F:\Git\LeetCode\LeetCode\Debug\TwoSum.pdb (Full PDB)
