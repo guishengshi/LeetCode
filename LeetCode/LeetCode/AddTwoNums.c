@@ -86,4 +86,5 @@ int main() {
 		free(l1);
 		free(l2);
 	}
+	return 0;
 }
